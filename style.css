@@ -1,0 +1,162 @@
+ .navbar{
+    background-color: black;
+    height: 120px;
+}
+a{
+    color: aliceblue;
+    line-height: 120px;
+    padding: 24px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.search-form{
+    padding: 15px;
+    margin-right: 10px;
+    color: aliceblue;
+    float: right;
+    font-size: 40px;
+    height: 80px;
+    cursor: pointer;
+}
+.homepage {
+    background-image: url('section1.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.homepage h2{
+    color: #f0f0ef;
+}
+.homepage h3{
+    color: #f3f4f8;
+    font-family:'Times New Roman', Times, serif
+}
+.homepage button{
+   
+    background-color:black;
+    color: rgb(27, 36, 33);
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform al 0.9s ease;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: #ee7504;
+   
+   
+}
+
+.homepage button:hover{
+    transform: scale(1.1);
+}
+
+.middlepage h1{
+    text-align: center;
+    font-size: 50px;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20x;
+}
+.box{
+    background-color: #fcf7f7;
+    border-radius: 10px;
+    padding: 100px;
+    text-align: center;
+    width: 250px;
+}
+.box img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.box h2{
+    font-size: 30px;
+    color: rgb(17, 14, 14);
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.box p{
+    font-size: 25px;
+    color: #2e2828;
+}
+.box button{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}
+.box button:hover {
+    color: rgb(81, 236, 20);
+    cursor: pointer;
+}
+.contactform .name-email{
+    
+    text-align: center;
+    flex-direction: column;
+
+}
+.contactform h1{
+    text-align: center;
+    font-size: 50px;
+}
+.contactform .send{
+    background-color: transparent;
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+.contactform Button{
+    background-color:#3ee71c;
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+    padding: -50px;
+    
+   
+}
+.whatsapp-button {
+    display: inline-block; 
+    background-color:transparent;
+    color: white; 
+    text-decoration: none;
+    padding: 20px 10px; 
+    border-radius: 15px; 
+    color: #3ee71c;
+    
+    
+}
+
+.whatsapp-button img {
+    width: 50px; 
+    vertical-align: middle;
+    margin-right: 5px; 
+}
+
+input{
+    width:200px;
+    height:30px;
+    font-size:15px;
+    padding-left:10px;
+    margin:5px;
+}
+footer{
+    background-color: #2e2828;
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+.name{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #fcf7f7;
+}
